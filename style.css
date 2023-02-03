@@ -1,52 +1,64 @@
-* {
+:root {
   font-size: 62%;
-  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  font-family: 'Quantico', sans-serif;
   margin: 0;
   padding: 0;
 }
 
 body {
-  height: 100vh;
-  background: linear-gradient(120deg, #295872, #74bded);
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background: black;
 }
 
 .relogio {
   text-transform: uppercase;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  height: 20rem;
-  width: 55rem;
   background: transparent;
   border-radius: 0.3rem;
-  background: #a2ad91;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+
+  scale: 1.4;
 }
 
 .relogio div {
-  height: 17rem;
-  width: 15rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   color: #fff;
-  background: #3a2d32;
-  box-shadow: 5px 5px 15px rgba(41, 87, 112, 1);
   border-radius: 0.7rem;
   letter-spacing: 0.3rem;
 }
 
-.relogio span {
-  font-family: 'Bebas Neue', cursive;
+.relogio .digitos span {
   font-weight: bolder;
   font-size: 8rem;
 }
 
-.relogio span.tempo {
-  font-family: 'Mochiy Pop One', sans-serif;
-  font-size: 1.4rem;
+.tempo {
+  font-size: 3rem;
+  color: white;
+  height: 4rem;
+}
+
+.dots {
+  letter-spacing: 10rem;
+  width: fit-content;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 450px) {
+  .relogio {
+    scale: 0.7;
+  }
 }
