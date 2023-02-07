@@ -17,7 +17,7 @@
   </head>
 
   <body>
-    <div class="relogio">
+    <div class="relogio hide">
       <div class="tempo"><span>Hora Atual</span></div>
       <div class="digitos">
         <div>
@@ -38,6 +38,24 @@
       </div>
     </div>
 
+    <div class="analogic-clock">
+      <div class="hour">
+        <div class="hr" id="hr"></div>
+      </div>
+
+      <div class="minutes">
+        <div class="min" id="min"></div>
+      </div>
+
+      <div class="seconds">
+        <div class="sec" id="sec"></div>
+      </div>
+    </div>
+
+    <div class="switch">
+      <i class="ph-windows-logo"></i>
+    </div>
     <script src="./app.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
   </body>
 </html>
