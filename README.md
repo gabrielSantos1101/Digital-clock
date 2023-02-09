@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-  <a href="https://gabriel-santos01.github.io/Calculadora-de-juros-compostos/" target = "blank">
+  <a href="https://gabriel-santos01.github.io/Digital-clock/" target = "_blank">
   <img alt="Relógio digital" src=".github/preview.jpg" width="100%">
   </a>
 </p>
